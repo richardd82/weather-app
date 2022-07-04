@@ -1,0 +1,62 @@
+.Card{
+  margin: 5%;
+  display: flow-root;
+  flex-direction: column;
+  background-image: url('../img/crystal.png');
+  background-size: cover;
+  align-items: stretch;
+  width: 20%;
+  height: 10%;
+  border-color: rgb(16, 45, 118);
+  border-style: solid;
+  border-radius: 10px;
+  color: rgb(0, 0, 2);
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px rgb(80, 58, 248),
+    0 0 42px rgb(105, 132, 184),
+    0 0 82px rgb(51, 68, 181),
+    0 0 92px rgb(24, 60, 118),
+    0 0 102px rgb(5, 24, 229),
+    0 0 151px rgb(26, 13, 81);
+}
+img{
+    width: 40%;    
+    align-items: center;
+}
+.Btn{
+    margin-top: 2px;
+    margin-left:82% ;
+    background-color: darkred;
+    border-radius: 15%;
+    color: white;
+    font-weight: bolder;
+}
+.Cards{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  
+}
+.TextSearch{
+ width: 500px;
+ height: 50px;
+ background-color: rgba(150, 184, 210, 0.337);
+ border-radius: 10px;
+ border-color: blue;
+}
+.Button{
+    display: inline-block;    
+    height: 50px;
+    background-color: rgba(150, 184, 210, 0.337);
+    border-radius: 10px;
+    border-color: blue;
+    position: relative;
+    margin: 10px;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    font: bold 25px Arial, sans-serif;
+    color: blue;
+}
