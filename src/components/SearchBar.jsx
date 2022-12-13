@@ -4,7 +4,7 @@ import styles from '../styles/Card.module.css';
 
 export default function SearchBar({onSearch}) {
   const [city, setCity] = useState("");
-  return <div className={styles.SearchBar} >
+  return (<div className={styles.SearchBar} >
     <form onSubmit={(e) => {
       e.preventDefault();
       onSearch(city);
@@ -18,5 +18,5 @@ export default function SearchBar({onSearch}) {
     /> 
     <input className={styles.Button} type="submit" value="agregar" />
     </form>
-  </div>
+  </div>)
 };
