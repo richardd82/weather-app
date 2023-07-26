@@ -8,9 +8,9 @@ export default function Card({ max, min, name, img, onClose }) {
         X
       </button>
       <h3>Max</h3>
-      <p>{max} °C</p>
+      <p>{max}</p>
       <h3>Min</h3>
-      <p>{min} °C</p>
+      <p>{min}</p>
       <img src={img} alt="" />
       <h2>{name}</h2>
     </div>

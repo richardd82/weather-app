@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Cards from './components/Cards.jsx';
-import Nav from './components/Nav.jsx'
+import Nav from './components/Nav.jsx';
 
 
 function App() {
@@ -13,8 +13,8 @@ function App() {
       .then(recurso => {
         if(recurso.main !== undefined){
           const newCities = {
-            min: Math.round(recurso.main.temp_min),
-            max: Math.round(recurso.main.temp_max),
+            min: recurso.main.temp_min,
+            max: recurso.main.temp_max,
             img: recurso.weather[0].icon,
             id: recurso.id,
             wind: recurso.wind.speed,
